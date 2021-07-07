@@ -97,7 +97,7 @@ function App() {
         <table className='table table-dark'>
           <tbody>
             {loading
-              ? <tr><td>loading...</td></tr>
+              ? <tr><td>Please wait....</td></tr>
               : list.map(function (item) {
                   return (
                     <tr key={item.ids}>
