@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  width: 100%;
+}
+.sub {
+  width: 600px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 30px;
+}
